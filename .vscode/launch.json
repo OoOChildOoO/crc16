@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+  {
+    "name": "(Windows) 启动",
+    "type": "cppvsdbg",
+    "request": "launch",
+    "program": "${workspaceFolder}/crc16.exe",
+    "args": [],
+    "stopAtEntry": false,
+    "cwd": "${fileDirname}",
+    "environment": [],
+    "console": "externalTerminal"
+  },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "d:\\About Learn\\MY Project\\Module\\CRC",
+      "environment": [],
+      "program": "d:\\About Learn\\MY Project\\Module\\CRC\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "externalConsole": false
+    }
+  ]
+}
